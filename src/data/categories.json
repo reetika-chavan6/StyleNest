@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "name": "Women",
+    "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e",
+    "alt": "Women's fashion clothing"
+  },
+  {
+    "id": 2,
+    "name": "Men",
+    "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22",
+    "alt": "Men's fashion clothing"
+  },
+  {
+    "id": 3,
+    "name": "Footwear",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "alt": "Fashion footwear"
+  },
+  {
+    "id": 4,
+    "name": "Accessories",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+    "alt": "Fashion accessories"
+  },
+  {
+    "id": 5,
+    "name": "Dresses",
+    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446",
+    "alt": "Women's dresses"
+  },
+  {
+    "id": 6,
+    "name": "T-Shirts",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+    "alt": "Casual cotton t-shirts"
+  },
+  {
+    "id": 7,
+    "name": "Jeans",
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+    "alt": "Denim jeans"
+  },
+  {
+    "id": 8,
+    "name": "Jackets",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+    "alt": "Fashion jackets"
+  },
+  {
+    "id": 9,
+    "name": "Hoodies",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+    "alt": "Casual hoodies"
+  },
+  {
+    "id": 10,
+    "name": "Formal Wear",
+    "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22",
+    "alt": "Formal clothing"
+  }
+]
