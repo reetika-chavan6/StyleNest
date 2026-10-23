@@ -17,6 +17,7 @@ function Checkout() {
 
   const [errors, setErrors] = useState({});
   const [message, setMessage] = useState("");
+  const [paymentMethod, setPaymentMethod] = useState("cod");
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -66,6 +67,7 @@ function Checkout() {
 
 async function handleSubmit(e) {
   e.preventDefault();
+  
 
   if (cartItems.length === 0) {
     setMessage("Your cart is empty. Please add products first.");
@@ -73,11 +75,17 @@ async function handleSubmit(e) {
   }
 
   if (!validateForm()) {
-    return;
-  }
+  return;
+}
 
-  setMessage("Placing your order...");
+if (paymentMethod !== "cod") {
+  setMessage(
+    "Online payments are available in demo mode only. Please select Cash on Delivery to place your order."
+  );
+  return;
+}
 
+setMessage("Placing your order...");
   try {
     const response = await fetch("/api/orders", {
       method: "POST",
@@ -208,11 +216,112 @@ async function handleSubmit(e) {
             )}
           </div>
 
-          {message && (
-            <p className="checkout-message" role="status">
-              {message}
-            </p>
-          )}
+          
+<div className="payment-section">
+  <h2>Payment Method</h2>
+  <p className="payment-subtitle">
+    Choose how you would like to pay.
+  </p>
+
+  <div className="payment-options">
+    <label
+      className={`payment-option ${
+        paymentMethod === "upi" ? "selected" : ""
+      }`}
+    >
+      <input
+        type="radio"
+        name="paymentMethod"
+        value="upi"
+        checked={paymentMethod === "upi"}
+        onChange={(e) => {
+          setPaymentMethod(e.target.value);
+          setMessage("");
+        }}
+      />
+      <span className="payment-icon">📱</span>
+      <span className="payment-details">
+        <strong>UPI Payment</strong>
+        <small>Google Pay, PhonePe, Paytm</small>
+      </span>
+    </label>
+
+    <label
+      className={`payment-option ${
+        paymentMethod === "card" ? "selected" : ""
+      }`}
+    >
+      <input
+        type="radio"
+        name="paymentMethod"
+        value="card"
+        checked={paymentMethod === "card"}
+        onChange={(e) => {
+          setPaymentMethod(e.target.value);
+          setMessage("");
+        }}
+      />
+      <span className="payment-icon">💳</span>
+      <span className="payment-details">
+        <strong>Credit / Debit Card</strong>
+        <small>Visa, Mastercard, RuPay</small>
+      </span>
+    </label>
+
+    <label
+      className={`payment-option ${
+        paymentMethod === "netbanking" ? "selected" : ""
+      }`}
+    >
+      <input
+        type="radio"
+        name="paymentMethod"
+        value="netbanking"
+        checked={paymentMethod === "netbanking"}
+        onChange={(e) => {
+          setPaymentMethod(e.target.value);
+          setMessage("");
+        }}
+      />
+      <span className="payment-icon">🏦</span>
+      <span className="payment-details">
+        <strong>Net Banking</strong>
+        <small>Pay through your bank</small>
+      </span>
+    </label>
+
+    <label
+      className={`payment-option ${
+        paymentMethod === "cod" ? "selected" : ""
+      }`}
+    >
+      <input
+        type="radio"
+        name="paymentMethod"
+        value="cod"
+        checked={paymentMethod === "cod"}
+        onChange={(e) => {
+          setPaymentMethod(e.target.value);
+          setMessage("");
+        }}
+      />
+      <span className="payment-icon">💵</span>
+      <span className="payment-details">
+        <strong>Cash on Delivery</strong>
+        <small>Pay when your order arrives</small>
+      </span>
+    </label>
+  </div>
+
+  {paymentMethod !== "cod" && (
+    <p className="payment-demo-notice" role="status">
+      Demo mode: Online payment is not enabled.
+      No money will be charged. Choose Cash on Delivery
+      to place your order.
+    </p>
+  )}
+</div>
+
 
           <button type="submit" className="place-order-btn">
             Place Order
