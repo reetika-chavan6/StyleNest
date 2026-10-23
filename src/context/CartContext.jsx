@@ -18,37 +18,41 @@ function getCartKey(product) {
 }
 
 // Load the saved cart from localStorage
+
 function getSavedCart() {
   try {
-    const savedCart = localStorage.getItem("stylenest-cart");
+    if (typeof window === "undefined") {
+      return [];
+    }
 
-    if (!savedCart) return [];
+    const savedCart = window.localStorage.getItem("stylenest-cart");
 
-    const items = JSON.parse(savedCart);
-
-    if (!Array.isArray(items)) return [];
-
-    // Keep existing cart items and add keys for older saved items
-    return items.map((item) => ({
-      ...item,
-      quantity: Math.max(1, Number(item.quantity) || 1),
-      cartKey: getCartKey(item)
-    }));
-  } catch {
+    return savedCart ? JSON.parse(savedCart) : [];
+  } catch (error) {
+    console.error("Unable to load saved cart:", error);
     return [];
   }
 }
+
 
 export function CartProvider({ children }) {
   const [cartItems, setCartItems] = useState(getSavedCart);
 
   // Save cart changes to localStorage
-  useEffect(() => {
-    localStorage.setItem(
-      "stylenest-cart",
-      JSON.stringify(cartItems)
-    );
-  }, [cartItems]);
+
+useEffect(() => {
+  try {
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem(
+        "stylenest-cart",
+        JSON.stringify(cartItems)
+      );
+    }
+  } catch (error) {
+    console.error("Unable to save cart:", error);
+  }
+}, [cartItems]);
+
 
   // Add a product with its selected size, color and quantity
   function addToCart(product) {
