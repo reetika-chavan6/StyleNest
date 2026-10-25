@@ -35,6 +35,13 @@ function handleSearch(event) {
         <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
         <Link to="/women" onClick={() => setMenuOpen(false)}>Women</Link>
         <Link to="/men" onClick={() => setMenuOpen(false)}>Men</Link>
+        
+<Link to="/wishlist" onClick={() => setMenuOpen(false)}>
+  ❤️ Wishlist
+</Link>
+
+<Link to="/outfit-studio">Outfit Studio ✨</Link>
+
       </div>
 
       <div className="nav-icons">

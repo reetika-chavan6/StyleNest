@@ -10,7 +10,8 @@ import Category from "./pages/Category";
 import Checkout from "./pages/Checkout";
 import OrderConfirmation from "./pages/OrderConfirmation";
 import ProductDetails from "./pages/ProductDetails";
-
+import Wishlist from "./pages/Wishlist";
+import OutfitStudio from "./pages/OutfitStudio";
 function App() {
   return (
     <CartProvider>
@@ -26,6 +27,8 @@ function App() {
           <Route path="/category/:category" element={<Category />}/>
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/order-confirmation" element={<OrderConfirmation />}/>
+          <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/outfit-studio" element={<OutfitStudio />} />
           <Route
   path="/product/:id"
   element={<ProductDetails />}

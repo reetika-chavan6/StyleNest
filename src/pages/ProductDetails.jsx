@@ -4,11 +4,14 @@ import { useNavigate, useParams } from "react-router-dom";
 import products from "../data/products.json";
 import { useCart } from "../context/CartContext";
 import "./ProductDetails.css";
+import { useWishlist } from "../context/WishlistContext";
 
 function ProductDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
   const { addToCart } = useCart();
+  const { toggleWishlist, isWishlisted } = useWishlist();
+  
 
   const product = products.find(
     (item) => item.id === Number(id)
@@ -221,20 +224,24 @@ const isOneSize = isAccessory;
           )}
 
           <div className="purchase-buttons">
-            <button
-              className="add-cart-button"
-              onClick={handleAddToCart}
-            >
-              Add to Cart
-            </button>
+  <button className="add-cart-button" onClick={handleAddToCart}>
+    Add to Cart
+  </button>
 
-            <button
-              className="buy-now-button"
-              onClick={handleBuyNow}
-            >
-              Buy Now
-            </button>
-          </div>
+  <button className="buy-now-button" onClick={handleBuyNow}>
+    Buy Now
+  </button>
+
+  <button
+    type="button"
+    className="wishlist-button"
+    onClick={() => toggleWishlist(product)}
+  >
+    {isWishlisted(product.id)
+      ? "❤️ Saved to Wishlist"
+      : "♡ Add to Wishlist"}
+  </button>
+</div>
         </section>
       </div>
     </main>
