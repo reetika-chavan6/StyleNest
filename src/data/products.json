@@ -1,126 +1,510 @@
 [
-  { "id": 1, "name": "Classic Cotton T-Shirt", "category": "Men", "price": 799, "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=75", "alt": "White cotton t-shirt" },
-  { "id": 2, "name": "Classic Denim Jeans", "category": "Men", "price": 1499, "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=500&q=75", "alt": "Blue denim jeans" },
-  { "id": 3, "name": "Leather Jacket", "category": "Men", "price": 2999, "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=500&q=75", "alt": "Brown leather jacket" },
-  { "id": 4, "name": "Casual Jacket", "category": "Women", "price": 1999, "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=500&q=75", "alt": "Casual fashion jacket" },
-  { "id": 5, "name": "Floral Summer Dress", "category": "Women", "price": 1599, "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=500&q=75", "alt": "Women's summer dress" },
-  { "id": 6, "name": "Women's White Top", "category": "Women", "price": 899, "image": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?auto=format&fit=crop&w=500&q=75", "alt": "Women's white top" },
-  { "id": 7, "name": "Oversized Hoodie", "category": "Men", "price": 1299, "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=75", "alt": "Casual oversized hoodie" },
-  { "id": 8, "name": "Women's Denim Jeans", "category": "Women", "price": 1399, "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=500&q=75", "alt": "Women's blue denim jeans" },
-  { "id": 9, "name": "Men's Casual Shirt", "category": "Men", "price": 1099, "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual button-up shirt" },
-  { "id": 10, "name": "Women's Blazer", "category": "Women", "price": 2299, "image": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=500&q=75", "alt": "Women's tailored blazer" },
-  { "id": 11, "name": "Men's Polo T-Shirt", "category": "Men", "price": 999, "image": "https://images.unsplash.com/photo-1625910513413-5fc8f3f3f3e5?auto=format&fit=crop&w=500&q=75", "alt": "Men's polo t-shirt" },
-  { "id": 12, "name": "Slim Fit Chinos", "category": "Men", "price": 1399, "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=500&q=75", "alt": "Men's slim fit trousers" },
-  { "id": 13, "name": "Men's Formal Shirt", "category": "Men", "price": 1199, "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=500&q=75", "alt": "Men's formal shirt" },
-  { "id": 14, "name": "Denim Jacket", "category": "Men", "price": 2199, "image": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=500&q=75", "alt": "Men's denim jacket" },
-  { "id": 15, "name": "Men's Casual Shorts", "category": "Men", "price": 899, "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual shorts" },
-  { "id": 16, "name": "Women's Maxi Dress", "category": "Women", "price": 1899, "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=500&q=75", "alt": "Women's maxi dress" },
-  { "id": 17, "name": "Women's Casual Top", "category": "Women", "price": 799, "image": "https://images.unsplash.com/photo-1564257577-6a2e9d8b6e4a?auto=format&fit=crop&w=500&q=75", "alt": "Women's casual top" },
-  { "id": 18, "name": "Women's Denim Jacket", "category": "Women", "price": 1799, "image": "https://images.unsplash.com/photo-1548126032-079a0fb0099d?auto=format&fit=crop&w=500&q=75", "alt": "Women's denim jacket" },
-  { "id": 19, "name": "Pleated Midi Skirt", "category": "Women", "price": 1199, "image": "https://images.unsplash.com/photo-1583496661160-fb5886a13d27?auto=format&fit=crop&w=500&q=75", "alt": "Women's pleated midi skirt" },
-  { "id": 20, "name": "Women's Cardigan", "category": "Women", "price": 1499, "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=500&q=75", "alt": "Women's knit cardigan" },
-  { "id": 21, "name": "Men's Sweatshirt", "category": "Men", "price": 1299, "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual sweatshirt" },
-  { "id": 22, "name": "Men's Linen Shirt", "category": "Men", "price": 1399, "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=500&q=75", "alt": "Men's linen shirt" },
-  { "id": 23, "name": "Women's Wide-Leg Pants", "category": "Women", "price": 1299, "image": "https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?auto=format&fit=crop&w=500&q=75", "alt": "Women's wide-leg pants" },
-  { "id": 24, "name": "Women's Blouse", "category": "Women", "price": 999, "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=500&q=75", "alt": "Women's elegant blouse" },
-  { "id": 25, "name": "Men's Bomber Jacket", "category": "Men", "price": 2499, "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=500&q=75", "alt": "Men's bomber-style jacket" },
-  { "id": 26, "name": "Women's Knit Sweater", "category": "Women", "price": 1599, "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=500&q=75", "alt": "Women's knit sweater" },
-  { "id": 27, "name": "Men's Everyday Trousers", "category": "Men", "price": 1499, "image": "https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&w=500&q=75", "alt": "Men's everyday trousers" },
-  { "id": 28, "name": "Women's Printed Dress", "category": "Women", "price": 1699, "image": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=500&q=75", "alt": "Women's printed dress" },
-  { "id": 29, "name": "Men's Casual Blazer", "category": "Men", "price": 2799, "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual blazer" },
-  { "id": 30, "name": "Women's Casual Trousers", "category": "Women", "price": 1199, "image": "https://images.unsplash.com/photo-1506629905607-d9a5a4b4b2c2?auto=format&fit=crop&w=500&q=75", "alt": "Women's casual trousers" },
-  { "id": 31, "name": "Men's Graphic T-Shirt", "category": "Men", "price": 899, "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=500&q=75", "alt": "Men's graphic t-shirt" },
-  { "id": 32, "name": "Men's Zip-Up Hoodie", "category": "Men", "price": 1599, "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=75", "alt": "Men's zip-up hoodie" },
-  { "id": 33, "name": "Men's Blue Denim Shirt", "category": "Men", "price": 1299, "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=500&q=75", "alt": "Men's blue denim shirt" },
-  { "id": 34, "name": "Men's Casual Blazer", "category": "Men", "price": 2799, "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual blazer" },
-  { "id": 35, "name": "Men's Jogger Pants", "category": "Men", "price": 1199, "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual jogger pants" },
-  { "id": 36, "name": "Women's Floral Maxi Dress", "category": "Women", "price": 1899, "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=500&q=75", "alt": "Women's floral maxi dress" },
-  { "id": 37, "name": "Women's Sleeveless Top", "category": "Women", "price": 699, "image": "https://images.unsplash.com/photo-1564257577-6a2e9d8b6e4a?auto=format&fit=crop&w=500&q=75", "alt": "Women's sleeveless top" },
-  { "id": 38, "name": "Women's Denim Jacket", "category": "Women", "price": 1799, "image": "https://images.unsplash.com/photo-1548126032-079a0fb0099d?auto=format&fit=crop&w=500&q=75", "alt": "Women's denim jacket" },
-  { "id": 39, "name": "Women's Pleated Skirt", "category": "Women", "price": 1199, "image": "https://images.unsplash.com/photo-1583496661160-fb5886a13d27?auto=format&fit=crop&w=500&q=75", "alt": "Women's pleated skirt" },
-  { "id": 40, "name": "Women's Knit Cardigan", "category": "Women", "price": 1499, "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=500&q=75", "alt": "Women's knit cardigan" },
-  { "id": 41, "name": "Men's Striped Polo Shirt", "category": "Men", "price": 1099, "image": "https://images.unsplash.com/photo-1625910513413-5fc8f3f3f3e5?auto=format&fit=crop&w=500&q=75", "alt": "Men's striped polo shirt" },
-  { "id": 42, "name": "Men's Formal Trousers", "category": "Men", "price": 1499, "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=500&q=75", "alt": "Men's formal trousers" },
-  { "id": 43, "name": "Women's Wide-Leg Jeans", "category": "Women", "price": 1399, "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=500&q=75", "alt": "Women's wide-leg jeans" },
-  { "id": 44, "name": "Women's White Blouse", "category": "Women", "price": 999, "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=500&q=75", "alt": "Women's white blouse" },
-  { "id": 45, "name": "Men's Leather Jacket", "category": "Men", "price": 2999, "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=500&q=75", "alt": "Men's leather jacket" },
-  { "id": 46, "name": "Women's Warm Sweater", "category": "Women", "price": 1599, "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=500&q=75", "alt": "Women's warm sweater" },
-  { "id": 47, "name": "Men's Casual Linen Shirt", "category": "Men", "price": 1399, "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual linen shirt" },
-  { "id": 48, "name": "Women's Printed Summer Dress", "category": "Women", "price": 1699, "image": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=500&q=75", "alt": "Women's printed summer dress" },
-  { "id": 49, "name": "Men's Classic Sweatshirt", "category": "Men", "price": 1299, "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=500&q=75", "alt": "Men's classic sweatshirt" },
-  { "id": 50, "name": "Women's Casual Pants", "category": "Women", "price": 1199, "image": "https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?auto=format&fit=crop&w=500&q=75", "alt": "Women's casual pants" },
-  { "id": 51, "name": "Men's Basic Crew Neck T-Shirt", "category": "Men", "price": 699, "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=75", "alt": "Men's crew neck t-shirt" },
-  { "id": 52, "name": "Men's Casual Denim Shirt", "category": "Men", "price": 1299, "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual denim shirt" },
-  { "id": 53, "name": "Men's Lightweight Jacket", "category": "Men", "price": 2299, "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=500&q=75", "alt": "Men's lightweight jacket" },
-  { "id": 54, "name": "Men's Relaxed Fit Jeans", "category": "Men", "price": 1599, "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=500&q=75", "alt": "Men's relaxed fit jeans" },
-  { "id": 55, "name": "Men's Everyday Hoodie", "category": "Men", "price": 1399, "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=75", "alt": "Men's everyday hoodie" },
-  { "id": 56, "name": "Men's Smart Casual Blazer", "category": "Men", "price": 2899, "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=500&q=75", "alt": "Men's smart casual blazer" },
-  { "id": 57, "name": "Men's Cotton Polo", "category": "Men", "price": 999, "image": "https://images.unsplash.com/photo-1625910513413-5fc8f3f3f3e5?auto=format&fit=crop&w=500&q=75", "alt": "Men's cotton polo shirt" },
-  { "id": 58, "name": "Men's Straight Fit Trousers", "category": "Men", "price": 1499, "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=500&q=75", "alt": "Men's straight fit trousers" },
-  { "id": 59, "name": "Men's Button Down Shirt", "category": "Men", "price": 1199, "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=500&q=75", "alt": "Men's button down shirt" },
-  { "id": 60, "name": "Men's Weekend Shorts", "category": "Men", "price": 899, "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=500&q=75", "alt": "Men's weekend shorts" },
-  { "id": 61, "name": "Men's Zip Neck Sweatshirt", "category": "Men", "price": 1499, "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=500&q=75", "alt": "Men's zip neck sweatshirt" },
-  { "id": 62, "name": "Men's Linen Blend Shirt", "category": "Men", "price": 1399, "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=500&q=75", "alt": "Men's linen blend shirt" },
-  { "id": 63, "name": "Men's Minimal Graphic Tee", "category": "Men", "price": 899, "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=500&q=75", "alt": "Men's graphic t-shirt" },
-  { "id": 64, "name": "Men's Casual Bomber Jacket", "category": "Men", "price": 2499, "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual bomber jacket" },
-  { "id": 65, "name": "Men's Everyday Sneakers", "category": "Men", "price": 2199, "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=75", "alt": "Men's everyday sneakers" },
-  { "id": 66, "name": "Women's Floral Midi Dress", "category": "Women", "price": 1699, "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=500&q=75", "alt": "Women's floral midi dress" },
-  { "id": 67, "name": "Women's Everyday White Top", "category": "Women", "price": 799, "image": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?auto=format&fit=crop&w=500&q=75", "alt": "Women's everyday white top" },
-  { "id": 68, "name": "Women's Classic Denim Jacket", "category": "Women", "price": 1799, "image": "https://images.unsplash.com/photo-1543076447-215ad9ba6923?auto=format&fit=crop&w=500&q=75", "alt": "Women's classic denim jacket" },
-  { "id": 69, "name": "Women's Pleated Midi Skirt", "category": "Women", "price": 1199, "image": "https://images.unsplash.com/photo-1583496661160-fb5886a13d27?auto=format&fit=crop&w=500&q=75", "alt": "Women's pleated midi skirt" },
-  { "id": 70, "name": "Women's Soft Knit Cardigan", "category": "Women", "price": 1499, "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=500&q=75", "alt": "Women's soft knit cardigan" },
-  { "id": 71, "name": "Women's Elegant Blazer", "category": "Women", "price": 2299, "image": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=500&q=75", "alt": "Women's elegant blazer" },
-  { "id": 72, "name": "Women's Summer Maxi Dress", "category": "Women", "price": 1899, "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=500&q=75", "alt": "Women's summer maxi dress" },
-  { "id": 73, "name": "Women's Casual Denim Jeans", "category": "Women", "price": 1399, "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=500&q=75", "alt": "Women's casual denim jeans" },
-  { "id": 74, "name": "Women's Elegant Blouse", "category": "Women", "price": 999, "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=500&q=75", "alt": "Women's elegant blouse" },
-  { "id": 75, "name": "Women's Warm Knit Sweater", "category": "Women", "price": 1599, "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=500&q=75", "alt": "Women's warm knit sweater" },
-  { "id": 76, "name": "Women's Printed Summer Dress", "category": "Women", "price": 1699, "image": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=500&q=75", "alt": "Women's printed summer dress" },
-  { "id": 77, "name": "Women's Tailored Trousers", "category": "Women", "price": 1299, "image": "https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?auto=format&fit=crop&w=500&q=75", "alt": "Women's tailored trousers" },
-  { "id": 78, "name": "Women's Sleeveless Summer Top", "category": "Women", "price": 699, "image": "https://images.unsplash.com/photo-1564257577-6a2e9d8b6e4a?auto=format&fit=crop&w=500&q=75", "alt": "Women's sleeveless summer top" },
-  { "id": 79, "name": "Women's Casual Jacket", "category": "Women", "price": 1999, "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=500&q=75", "alt": "Women's casual jacket" },
-  { "id": 80, "name": "Women's Floral Everyday Dress", "category": "Women", "price": 1599, "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=500&q=75", "alt": "Women's floral everyday dress" },
-  { "id": 81, "name": "Men's Classic Leather Jacket", "category": "Men", "price": 2999, "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=500&q=75", "alt": "Men's classic leather jacket" },
-  { "id": 82, "name": "Men's Blue Denim Jeans", "category": "Men", "price": 1499, "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=500&q=75", "alt": "Men's blue denim jeans" },
-  { "id": 83, "name": "Men's Casual Cotton Tee", "category": "Men", "price": 799, "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual cotton tee" },
-  { "id": 84, "name": "Men's Relaxed Hoodie", "category": "Men", "price": 1299, "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=75", "alt": "Men's relaxed hoodie" },
-  { "id": 85, "name": "Men's Smart Formal Shirt", "category": "Men", "price": 1299, "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=500&q=75", "alt": "Men's smart formal shirt" },
-  { "id": 86, "name": "Men's Everyday Chinos", "category": "Men", "price": 1399, "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=500&q=75", "alt": "Men's everyday chinos" },
-  { "id": 87, "name": "Men's Textured Polo Shirt", "category": "Men", "price": 1099, "image": "https://images.unsplash.com/photo-1625910513413-5fc8f3f3f3e5?auto=format&fit=crop&w=500&q=75", "alt": "Men's textured polo shirt" },
-  { "id": 88, "name": "Men's Casual Linen Shirt", "category": "Men", "price": 1399, "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual linen shirt" },
-  { "id": 89, "name": "Men's Weekend Joggers", "category": "Men", "price": 1199, "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=500&q=75", "alt": "Men's weekend joggers" },
-  { "id": 90, "name": "Men's Casual Sweatshirt", "category": "Men", "price": 1299, "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=500&q=75", "alt": "Men's casual sweatshirt" },
-  { "id": 91, "name": "Women's Classic White Blouse", "category": "Women", "price": 999, "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=500&q=75", "alt": "Women's classic white blouse" },
-  { "id": 92, "name": "Women's Denim Everyday Jeans", "category": "Women", "price": 1399, "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=500&q=75", "alt": "Women's denim everyday jeans" },
-  { "id": 93, "name": "Women's Cozy Knit Sweater", "category": "Women", "price": 1599, "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=500&q=75", "alt": "Women's cozy knit sweater" },
-  { "id": 94, "name": "Women's Pleated Everyday Skirt", "category": "Women", "price": 1199, "image": "https://images.unsplash.com/photo-1583496661160-fb5886a13d27?auto=format&fit=crop&w=500&q=75", "alt": "Women's pleated everyday skirt" },
-  { "id": 95, "name": "Women's Casual Knit Cardigan", "category": "Women", "price": 1499, "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=500&q=75", "alt": "Women's casual knit cardigan" },
-  { "id": 96, "name": "Women's Party Blazer", "category": "Women", "price": 2399, "image": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=500&q=75", "alt": "Women's party blazer" },
-  { "id": 97, "name": "Women's Floral Maxi Outfit", "category": "Women", "price": 1899, "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=500&q=75", "alt": "Women's floral maxi outfit" },
-  { "id": 98, "name": "Women's Summer Casual Top", "category": "Women", "price": 799, "image": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?auto=format&fit=crop&w=500&q=75", "alt": "Women's summer casual top" },
-  { "id": 99, "name": "Women's Lightweight Jacket", "category": "Women", "price": 1899, "image": "https://images.unsplash.com/photo-1543076447-215ad9ba6923?auto=format&fit=crop&w=500&q=75", "alt": "Women's lightweight jacket" },
-  { "id": 100, "name": "Women's Everyday Dress", "category": "Women", "price": 1499, "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=500&q=75", "alt": "Women's everyday dress" },
-  { "id": 101, "name": "Classic White Sneakers", "category": "Footwear", "price": 1499, "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=75", "alt": "Classic white sneakers" },
-  { "id": 102, "name": "Women's footwear", "category": "Footwear", "price": 1999, "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=500&q=75", "alt": "Running shoes" },
-  { "id": 103, "name": "Casual Slip-On Shoes", "category": "Footwear", "price": 1199, "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=500&q=75", "alt": "Casual slip-on shoes" },
-  { "id": 104, "name": "Minimalist Wrist Watch", "category": "Accessories", "price": 1299, "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=500&q=75", "alt": "Minimalist wrist watch" },
-  { "id": 105, "name": "Classic Sunglasses", "category": "Accessories", "price": 799, "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=500&q=75", "alt": "Classic sunglasses" },
-  { "id": 106, "name": "Everyday Backpack", "category": "Accessories", "price": 1599, "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=500&q=75", "alt": "Everyday backpack" },
-  { "id": 107, "name": "Floral Midi Dress", "category": "Dresses", "price": 1699, "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=500&q=75", "alt": "Floral midi dress" },
-  { "id": 108, "name": "Elegant Evening Dress", "category": "Dresses", "price": 2499, "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=500&q=75", "alt": "Elegant evening dress" },
+  {
+    "id": 1,
+    "name": "Everyday Cotton Tee",
+    "category": "Men",
+    "price": 349,
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27",
+    "alt": "Men cotton t-shirt"
+  },
+  {
+    "id": 2,
+    "name": "Urban Slim Jeans",
+    "category": "Men",
+    "price": 799,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+    "alt": "Slim fit jeans"
+  },
+  {
+    "id": 3,
+    "name": "Rider Leather Jacket",
+    "category": "Men",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b",
+    "alt": "Leather jacket"
+  },
+  {
+    "id": 4,
+    "name": "Women's Casual Bomber",
+    "category": "Women",
+    "price": 999,
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea",
+    "alt": "Women's jacket"
+  },
+  {
+    "id": 5,
+    "name": "Floral Breeze Dress",
+    "category": "Women",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446",
+    "alt": "Floral dress"
+  },
+  {
+    "id": 6,
+    "name": "Elegant White Top",
+    "category": "Women",
+    "price": 399,
+    "image": "https://images.unsplash.com/photo-1551163943-3f6a855d1153",
+    "alt": "White top"
+  },
+  {
+    "id": 7,
+    "name": "Oversized Street Hoodie",
+    "category": "Men",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+    "alt": "Oversized hoodie"
+  },
+  {
+    "id": 8,
+    "name": "Vintage Women's Jeans",
+    "category": "Women",
+    "price": 749,
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+    "alt": "Women's denim jeans"
+  },
   
-  { "id": 110, "name": "Essential Black T-Shirt", "category": "T-Shirts", "price": 599, "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=75", "alt": "Essential black t-shirt" },
-  { "id": 111, "name": "Striped Cotton T-Shirt", "category": "T-Shirts", "price": 699, "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=500&q=75", "alt": "Striped cotton t-shirt" },
-  { "id": 112, "name": "Graphic Print T-Shirt", "category": "T-Shirts", "price": 749, "image": "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=500&q=75", "alt": "Graphic print t-shirt" },
-  { "id": 113, "name": "Classic Blue Jeans", "category": "Jeans", "price": 1399, "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=500&q=75", "alt": "Classic blue jeans" },
-  { "id": 114, "name": "Slim Fit Denim Jeans", "category": "Jeans", "price": 1599, "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=500&q=75", "alt": "Slim fit denim jeans" },
-  { "id": 115, "name": "Relaxed Fit Jeans", "category": "Jeans", "price": 1799, "image": "https://images.unsplash.com/photo-1548883354-94bcfe321cbb?auto=format&fit=crop&w=500&q=75", "alt": "Relaxed fit jeans" },
-  { "id": 116, "name": "Classic Denim Jacket", "category": "Jackets", "price": 2199, "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=500&q=75", "alt": "Classic denim jacket" },
-  { "id": 117, "name": "Lightweight Casual Jacket", "category": "Jackets", "price": 1899, "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=500&q=75", "alt": "Lightweight casual jacket" },
-  { "id": 118, "name": "Premium Leather Jacket", "category": "Jackets", "price": 3299, "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=500&q=75", "alt": "Premium leather jacket" },
-  { "id": 119, "name": "Classic Grey Hoodie", "category": "Hoodies", "price": 1199, "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=75", "alt": "Classic grey hoodie" },
-  { "id": 120, "name": "Oversized Fleece Hoodie", "category": "Hoodies", "price": 1499, "image": "https://images.unsplash.com/photo-1578681994506-b8f463449011?auto=format&fit=crop&w=500&q=75", "alt": "Oversized fleece hoodie" },
-  { "id": 121, "name": "Zip-Up Casual Hoodie", "category": "Hoodies", "price": 1399, "image": "https://images.unsplash.com/photo-1565693413579-8a6b2a0c4a7b?auto=format&fit=crop&w=500&q=75", "alt": "Zip-up casual hoodie" },
-  { "id": 122, "name": "Classic Formal Blazer", "category": "Formal Wear", "price": 2799, "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=500&q=75", "alt": "Classic formal blazer" },
-  { "id": 123, "name": "Formal Office Shirt", "category": "Formal Wear", "price": 1199, "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=500&q=75", "alt": "Formal office shirt" },
-  { "id": 124, "name": "Elegant Formal Trousers", "category": "Formal Wear", "price": 1599, "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=500&q=75", "alt": "Elegant formal trousers" }
+  {
+    "id": 125,
+    "name": "Urban Explorer Shirt",
+    "category": "Men",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+    "alt": "Urban explorer shirt"
+  },
+  {
+    "id": 126,
+    "name": "Sky Blue Casual Tee",
+    "category": "Men",
+    "price": 349,
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820",
+    "alt": "Blue casual t-shirt"
+  },
+  {
+    "id": 127,
+    "name": "Weekend Cargo Pants",
+    "category": "Men",
+    "price": 799,
+    "image": "https://images.unsplash.com/photo-1506629905607-d405b7a2b5d6",
+    "alt": "Cargo pants"
+  },
+  {
+    "id": 128,
+    "name": "Vintage Rider Jacket",
+    "category": "Men",
+    "price": 1399,
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
+    "alt": "Rider jacket"
+  },
+  {
+    "id": 129,
+    "name": "Everyday Denim Shorts",
+    "category": "Men",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "alt": "Denim shorts"
+  },
+  {
+    "id": 130,
+    "name": "Ocean Breeze Polo",
+    "category": "Men",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518",
+    "alt": "Polo shirt"
+  },
+  {
+    "id": 131,
+    "name": "Classic Office Chinos",
+    "category": "Men",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a",
+    "alt": "Office chinos"
+  },
+  {
+    "id": 132,
+    "name": "Streetwear Zip Hoodie",
+    "category": "Men",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2",
+    "alt": "Zip hoodie"
+  },
+  {
+    "id": 133,
+    "name": "Autumn Floral Dress",
+    "category": "Women",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f",
+    "alt": "Floral dress"
+  },
+  {
+    "id": 134,
+    "name": "Silk Charm Blouse",
+    "category": "Women",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    "alt": "Silk blouse"
+  },
+  {
+    "id": 135,
+    "name": "Rosewood Maxi Dress",
+    "category": "Women",
+    "price": 999,
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c",
+    "alt": "Maxi dress"
+  },
+  {
+    "id": 136,
+    "name": "Elegant Office Blazer",
+    "category": "Women",
+    "price": 1199,
+    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b",
+    "alt": "Office blazer"
+  },
+  {
+    "id": 137,
+    "name": "Soft Knit Pullover",
+    "category": "Women",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc",
+    "alt": "Pullover sweater"
+  },
+  {
+    "id": 138,
+    "name": "Summer Vacation Top",
+    "category": "Women",
+    "price": 399,
+    "image": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df",
+    "alt": "Summer top"
+  },
+  {
+    "id": 139,
+    "name": "Urban Wide Leg Jeans",
+    "category": "Women",
+    "price": 799,
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+    "alt": "Wide leg jeans"
+  },
+  {
+    "id": 140,
+    "name": "Pleated Evening Skirt",
+    "category": "Women",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1583496661160-fb5886a13d27",
+    "alt": "Pleated skirt"
+  },
+  {
+    "id": 141,
+    "name": "Cloud Walk Sneakers",
+    "category": "Footwear",
+    "price": 999,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "alt": "Sneakers"
+  },
+  {
+    "id": 142,
+    "name": "Velocity Running Shoes",
+    "category": "Footwear",
+    "price": 1199,
+    "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2",
+    "alt": "Running shoes"
+  },
+  {
+    "id": 143,
+    "name": "Metro Leather Loafers",
+    "category": "Footwear",
+    "price": 1099,
+    "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000",
+    "alt": "Leather loafers"
+  },
+  {
+    "id": 144,
+    "name": "TravelLite Backpack",
+    "category": "Accessories",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1491637639811-60e2756cc1c7",
+    "alt": "Travel backpack"
+  },
+  {
+    "id": 145,
+    "name": "Executive Leather Watch",
+    "category": "Accessories",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d",
+    "alt": "Leather watch"
+  },
+  {
+    "id": 146,
+    "name": "Aviator Elite Sunglasses",
+    "category": "Accessories",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f",
+    "alt": "Aviator sunglasses"
+  },
+  {
+    "id": 147,
+    "name": "Canvas Utility Bag",
+    "category": "Accessories",
+    "price": 799,
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa",
+    "alt": "Canvas bag"
+  },
+  {
+    "id": 148,
+    "name": "Premium Leather Belt",
+    "category": "Accessories",
+    "price": 399,
+    "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc",
+    "alt": "Leather belt"
+  },
+  {
+    "id": 149,
+    "name": "Essential White Tee",
+    "category": "T-Shirts",
+    "price": 299,
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27",
+    "alt": "White t-shirt"
+  },
+  {
+    "id": 150,
+    "name": "Retro Graphic Tee",
+    "category": "T-Shirts",
+    "price": 399,
+    "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1",
+    "alt": "Graphic tee"
+  },
+  {
+    "id": 151,
+    "name": "Beige Relaxed Jeans",
+    "category": "Jeans",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1548883354-94bcfe321cbb",
+    "alt": "Relaxed jeans"
+  },
+  {
+    "id": 152,
+    "name": "Premium Denim Jacket",
+    "category": "Jackets",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1516257984-b1b4d707412e",
+    "alt": "Denim jacket"
+  },
+  {
+    "id": 153,
+    "name": "Winter Shield Parka",
+    "category": "Jackets",
+    "price": 1499,
+    "image": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef",
+    "alt": "Winter parka"
+  },
+  {
+    "id": 154,
+    "name": "Luxury Evening Gown",
+    "category": "Dresses",
+    "price": 1199,
+    "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae",
+    "alt": "Luxury gown"
+  },
+  
+  {
+    "id": 155,
+    "name": "Mountain Trail Hoodie",
+    "category": "Hoodies",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1572495641004-28421ae29c94",
+    "alt": "Mountain trail hoodie"
+  },
+  {
+    "id": 156,
+    "name": "Urban Check Shirt",
+    "category": "Men",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1603252109360-909baaf261c7",
+    "alt": "Checked shirt"
+  },
+  {
+    "id": 157,
+    "name": "Harbor Blue Polo",
+    "category": "Men",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1618886614638-80e3c103d31a",
+    "alt": "Blue polo tshirt"
+  },
+  {
+    "id": 158,
+    "name": "Flex Fit Joggers",
+    "category": "Men",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1506629905607-d9a5a4b4b2c2",
+    "alt": "Jogger pants"
+  },
+  {
+    "id": 159,
+    "name": "Vintage Washed Jeans",
+    "category": "Jeans",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+    "alt": "Washed denim jeans"
+  },
+  {
+    "id": 160,
+    "name": "Essential Winter Jacket",
+    "category": "Jackets",
+    "price": 1399,
+    "image": "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543",
+    "alt": "Winter jacket"
+  },
+  {
+    "id": 161,
+    "name": "Sunset Floral Dress",
+    "category": "Women",
+    "price": 999,
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    "alt": "Floral sunset dress"
+  },
+  {
+    "id": 162,
+    "name": "Pearl White Blouse",
+    "category": "Women",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1495385794356-15371f348c31",
+    "alt": "White blouse"
+  },
+  {
+    "id": 163,
+    "name": "Morning Bloom Top",
+    "category": "Women",
+    "price": 399,
+    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b",
+    "alt": "Casual women's top"
+  },
+  {
+    "id": 164,
+    "name": "Silver Moon Skirt",
+    "category": "Women",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1571513800374-df1bbe650e56",
+    "alt": "Midi skirt"
+  },
+  {
+    "id": 165,
+    "name": "Elegant Knit Cardigan",
+    "category": "Women",
+    "price": 799,
+    "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc",
+    "alt": "Knit cardigan"
+  },
+  {
+    "id": 166,
+    "name": "Weekend Comfort Sweater",
+    "category": "Women",
+    "price": 749,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f",
+    "alt": "Comfort sweater"
+  },
+  {
+    "id": 167,
+    "name": "Crystal White Sneakers",
+    "category": "Footwear",
+    "price": 1099,
+    "image": "https://images.unsplash.com/photo-1465453869711-7e174808ace9",
+    "alt": "White sneakers"
+  },
+  {
+    "id": 168,
+    "name": "RapidRun Sports Shoes",
+    "category": "Footwear",
+    "price": 1199,
+    "image": "https://images.unsplash.com/photo-1543508282-6319a3e2621f",
+    "alt": "Sports shoes"
+  },
+  {
+    "id": 169,
+    "name": "Street Casual Loafers",
+    "category": "Footwear",
+    "price": 999,
+    "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000",
+    "alt": "Casual loafers"
+  },
+  {
+    "id": 170,
+    "name": "Explorer Travel Bag",
+    "category": "Accessories",
+    "price": 799,
+    "image": "https://images.unsplash.com/photo-1542296332-2e4473faf563",
+    "alt": "Travel bag"
+  },
+  {
+    "id": 171,
+    "name": "Classic Steel Watch",
+    "category": "Accessories",
+    "price": 999,
+    "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56",
+    "alt": "Steel watch"
+  },
+  {
+    "id": 172,
+    "name": "Urban Vision Sunglasses",
+    "category": "Accessories",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "alt": "Fashion sunglasses"
+  },
+  {
+    "id": 173,
+    "name": "Minimal Leather Wallet",
+    "category": "Accessories",
+    "price": 399,
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93",
+    "alt": "Leather wallet"
+  },
+  {
+    "id": 174,
+    "name": "Ocean Breeze Maxi Dress",
+    "category": "Dresses",
+    "price": 1099,
+    "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f",
+    "alt": "Maxi dress"
+  },
+  {
+    "id": 175,
+    "name": "Rose Petal Evening Gown",
+    "category": "Dresses",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae",
+    "alt": "Evening gown"
+  },
+  {
+    "id": 176,
+    "name": "Essential Navy Tee",
+    "category": "T-Shirts",
+    "price": 299,
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f37f4678",
+    "alt": "Navy tshirt"
+  },
+  {
+    "id": 177,
+    "name": "Bold Graphic Street Tee",
+    "category": "T-Shirts",
+    "price": 449,
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
+    "alt": "Graphic tshirt"
+  },
+  {
+    "id": 178,
+    "name": "Signature Office Blazer",
+    "category": "Formal Wear",
+    "price": 1499,
+    "image": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc",
+    "alt": "Office blazer"
+  },
+  {
+    "id": 179,
+    "name": "Executive Slim Trouser",
+    "category": "Formal Wear",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1517438476312-10d79c077509",
+    "alt": "Formal trouser"
+  }
 ]
+
+
