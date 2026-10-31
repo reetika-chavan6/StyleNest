@@ -20,7 +20,9 @@ function handleSearch(event) {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo">StyleNest</Link>
+      <nav className="navbar">
+  <span className="logo">StyleNest</span>
+</nav>
 
       <button
         className="menu-btn"
