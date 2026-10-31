@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(125,60%,92%)"/><stop offset="1" stop-color="hsl(165,55%,82%)"/></linearGradient></defs>
+<rect width="400" height="480" fill="url(#g)"/>
+<g fill="hsl(125,55%,52%)" stroke="rgba(0,0,0,.2)" stroke-width="2" transform="translate(0,20)"><path d="M110 85 L160 68 L200 105 L240 68 L290 85 L345 190 L305 215 L272 165 L272 340 L128 340 L128 165 L95 215 L55 190 Z"/><path d="M200 105 L200 340" stroke="rgba(0,0,0,.3)" stroke-width="4" fill="none"/></g>
+<text x="200" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">Denim Jacket</text>
+</svg>

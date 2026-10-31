@@ -305,14 +305,7 @@
     "alt": "Luxury gown"
   },
   
-  {
-    "id": 155,
-    "name": "Mountain Trail Hoodie",
-    "category": "Hoodies",
-    "price": 899,
-    "image": "https://images.unsplash.com/photo-1572495641004-28421ae29c94",
-    "alt": "Mountain trail hoodie"
-  },
+
   {
     "id": 156,
     "name": "Urban Check Shirt",
@@ -465,22 +458,8 @@
     "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f",
     "alt": "Maxi dress"
   },
-  {
-    "id": 175,
-    "name": "Rose Petal Evening Gown",
-    "category": "Dresses",
-    "price": 1299,
-    "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae",
-    "alt": "Evening gown"
-  },
-  {
-    "id": 176,
-    "name": "Essential Navy Tee",
-    "category": "T-Shirts",
-    "price": 299,
-    "image": "https://images.unsplash.com/photo-1583743814966-8936f37f4678",
-    "alt": "Navy tshirt"
-  },
+  
+ 
   {
     "id": 177,
     "name": "Bold Graphic Street Tee",
@@ -504,7 +483,50 @@
     "price": 899,
     "image": "https://images.unsplash.com/photo-1517438476312-10d79c077509",
     "alt": "Formal trouser"
+  },
+  
+  {
+    "id": 180,
+    "name": "Classic Oversized Hoodie",
+    "category": "Hoodies",
+    "price": 999,
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+    "alt": "Classic oversized hoodie"
+  },
+  {
+    "id": 181,
+    "name": "Premium Fleece Hoodie",
+    "category": "Hoodies",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1578681994506-b8f463449011",
+    "alt": "Premium fleece hoodie"
+  },
+  {
+    "id": 182,
+    "name": "Minimalist Zip-Up Hoodie",
+    "category": "Hoodies",
+    "price": 1199,
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633",
+    "alt": "Minimalist zip-up hoodie"
+  },
+  
+  {
+    "id": 183,
+    "name": "Floral Printed Summer Dress",
+    "category": "Dresses",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446",
+    "alt": "Floral printed summer dress"
+  },
+ 
+  {
+    "id": 185,
+    "name": "Classic Casual Maxi Dress",
+    "category": "Dresses",
+    "price": 1399,
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c",
+    "alt": "Classic casual maxi dress"
   }
+
+
 ]
-
-
